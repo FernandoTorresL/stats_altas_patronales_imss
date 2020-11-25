@@ -1,0 +1,10 @@
+websites:
+  path_to_chromedriver: '../chromedriver'
+  alta_patronal:
+    url: http://x.x.x.x:y/A/B
+    user: AAAA
+    pwd: BBBB
+    url_stats: http://x.x.x.x:y/A/B/C
+    date1: DD-MM-YYYY
+    date2: DD-MM-YYYY
+    download_dir: \download_folder
