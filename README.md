@@ -10,7 +10,7 @@ We want stats about 'Alta Patronal' procedure that is managed on IMSS's offices 
 
 The exercise in this repository only show off dummy data and will be a practice of several technologies on DataScience.
 
-## Origen de la información
+## Data origins
 
 The data came from several PDF's reports that gather the following fields:
 
