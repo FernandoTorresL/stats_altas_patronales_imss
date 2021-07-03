@@ -4,6 +4,7 @@
 
 ### User files
 config.yaml
+chromedriver/
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks

@@ -64,16 +64,52 @@ We need:
 
 ## WIP (Work in progress)
 
-So far, the Jupyter Notebook on this repo is semi-automatic. Has been published and test graph on Tableau with only 500K records of dummy data; the real data is about 1.2M of records (with more fields) since 2009. 
+So far, the Jupyter Notebook on this repo is semi-automatic. Has been published and test graph on Tableau with only 500K records of dummy data; the real data is about 1.2M of records (with more fields) since 2009.
 Just now, I'm coding on a develop branch a python program pipeline about the entire ETL process.
+
+### Setup
+
+* Clone this repository
+
+```bash
+git clone git@github.com:FernandoTorresL/stats_altas_patronales_imss.git
+```
+
+* Prepare the environment
+
+```bash
+# Create and activate the environment
+python3 -m venv venv
+source venv/bin/activate
+
+python3 -m pip install --upgrade pip
+
+pip install -r requirements.txt
+```
+
+### Use the Jupyter Notebook
+
+* Change to the notebook directory
+
+```bash
+cd notebook
+```
+
+* Execute Jupyter Notebook (with active environment)
+
+```bash
+./venv/bin/jupyter notebook
+```
+
+* Open *Test_AP_Reingenieria.ipynb*
+
 
 ---
 
-## Follow me
+#### Follow me 
+[fertorresmx.dev](https://fertorresmx.dev/)
 
-### [fertorresmx.dev](https://www.fertorresmx.dev/)
-
-#### :globe_with_meridians: Twitter, Instagram: [@fertorresmx](http://www.twitter/fertorresmx)
+#### :globe_with_meridians: [Twitter](https://twitter.com/FerTorresMx), [Instagram](https://www.instagram.com/fertorresmx/): @fertorresmx
 
 
 
@@ -141,10 +177,45 @@ Se requiere:
 
 Por ahora el proceso en el notebook en éste repositorio es semi-automático. Se publicó una gráfica de ejemplo en Tableau con 500,000 registros de prueba; los datos reales superan 1.2 millones de registros y muchos más campos. Se inicia la etapa de automatizar totalmente un proceso de ETL usando Python
 
+### Setup
+
+* Clonar el repositorio
+
+```bash
+git clone git@github.com:FernandoTorresL/stats_altas_patronales_imss.git
+```
+
+* Preparar el ambiente
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+
+python3 -m pip install --upgrade pip
+
+pip install -r requirements.txt
+```
+
+### Usar Jupyter Notebook
+
+* Cambiar al directorio notebook
+
+```bash
+cd notebook
+```
+
+* Ejecutar Jupyter Notebook (con el ambiente activo)
+
+```bash
+./venv/bin/jupyter notebook
+```
+
+* Abrir *Test_AP_Reingenieria.ipynb*
+
+
 ---
 
-## Follow me
+#### Follow me 
+[fertorresmx.dev](https://fertorresmx.dev/)
 
-### [fertorresmx.dev](https://www.fertorresmx.dev/)
-
-#### :globe_with_meridians: Twitter, Instagram: [@fertorresmx](http://www.twitter/fertorresmx)
+#### :globe_with_meridians: [Twitter](https://twitter.com/FerTorresMx), [Instagram](https://www.instagram.com/fertorresmx/): @fertorresmx
